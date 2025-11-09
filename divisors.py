@@ -7,4 +7,4 @@ def divisors(n):
 
 if __name__ == "__main__":
     num = int(input())
-    print(divisors(num))
+    print(*divisors(num))
